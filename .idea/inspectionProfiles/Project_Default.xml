@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyTypedDictInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="account.move.__getitem__" />
+          <option value="res.currency.with_context" />
+          <option value="account.move.line.mapped" />
+          <option value="stock.location._should_be_valued" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
