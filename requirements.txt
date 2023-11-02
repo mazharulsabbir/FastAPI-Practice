@@ -1,4 +1,4 @@
-fastapi
+fastapi~=0.86.0
 uvicorn
 alembic==1.8.1
 anyio==3.6.2
@@ -59,3 +59,5 @@ urllib3==1.26.12
 webencodings==0.5.1
 websockets==10.4
 zipp==3.10.0
+pyngrok~=7.0.0
+pycups
