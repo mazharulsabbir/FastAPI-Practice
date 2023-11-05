@@ -1,0 +1,14 @@
+[Unit]
+Description=FastPrinterHost Service
+After=network.target
+
+[Service]
+User=mazhar
+Group=www-data
+WorkingDirectory=/home/mazhar/PycharmProjects/FastAPI-Practice/server
+Environment="PATH=/home/mazhar/PycharmProjects/FastAPI-Practice/venv/bin"
+ExecStart=/home/mazhar/PycharmProjects/FastAPI-Practice/venv/bin/uvicorn api:app --host 0.0.0.0 --port 8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
