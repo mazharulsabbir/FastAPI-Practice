@@ -1,9 +1,16 @@
 # To create a service that runs a FastAPI application within a virtual environment (venv) on Ubuntu boot, you can follow these steps:
 
 ## Prerequisites:
+
 ```bash
 sudo apt install -y libcups2-dev
 ```
+
+## Useful Links
+
+- [RaspberryPi Printer Server](https://www.tomshardware.com/how-to/raspberry-pi-print-server)
+- [Create A Ubuntu Automated Service](https://www.makeuseof.com/use-autokey-to-automate-repetitive-tasks-on-linux/)
+- [Deploy FastAPI on Server](https://dev.to/ndrohith/deploy-fastapi-application-on-digital-ocean-with-nginx-and-gunicorn-2lnk)
 
 ## 1. Create a Systemd Service Unit File:
 
