@@ -1,10 +1,12 @@
-# To create a service that runs a FastAPI application within a virtual environment (venv) on Ubuntu boot, you can follow these steps:
+## To create a service that runs a FastAPI application within a virtual environment (venv) on Ubuntu boot, you can follow these steps:
 
 ## Prerequisites:
 
 ```bash
 sudo apt install -y libcups2-dev
 ```
+
+## [Add Printers on Cups](http://localhost:631/admin)
 
 ## Useful Links
 
